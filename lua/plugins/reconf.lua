@@ -68,6 +68,21 @@ return {
         -- LSP Server Settings
         ---@type lspconfig.options
         servers = {
+          emmet_ls = {
+            enabled = lsp == "emmet_ls --stdio",
+          },
+          html = {
+            enabled = lsp == "html_lsp --stdio",
+          },
+          pyright = {
+            enabled = lsp == "pyright-langserver --stdio",
+          },
+          marksman = {
+            enabled = lsp == "marksman server",
+          },
+          jsonls = {
+            enabled = lsp == "vscode-json-language-server --stdio",
+          },
           lua_ls = {
             mason = false, -- set to false if you don't want this server to be installed with mason
             -- Use this to add any additional keymaps
@@ -261,10 +276,15 @@ return {
     cmd = "Mason",
     keys = { { "<leader>cm", "<cmd>Mason<cr>", desc = "Mason" } },
     build = ":MasonUpdate",
-    opts_extend = { "ensure_installed" },
+    -- opts_extend = { "ensure_installed" },
     opts = {
       ensure_installed = {
         "stylua",
+        "emmet-ls",
+        "prettier",
+        "html-lsp",
+        "pyright",
+        "json-lsp",
         "shfmt",
       },
     },
@@ -292,5 +312,4 @@ return {
       end)
     end,
   },
-  { "williamboman/mason-lspconfig.nvim", config = function() end },
 }

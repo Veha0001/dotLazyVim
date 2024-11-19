@@ -7,3 +7,6 @@ foo.*
 *.log
 data
 lua/plugins/my*.lua
+lua/plugins/custom.lua
+lua/plugins/*patch.lua
+lazy*.json

@@ -5,6 +5,13 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 ---
 
-- USE [COC.nvim](https://github.com/neoclide/coc.nvim) 
-+ [x] beacuse Termux can't use mason lsp right now.
-
+## Termux setup
+> Install packages
+```bash
+apt install termux-api python neovim git nodejs-lts rigrep ruff luarocks lua-language-server 
+```
+> Setup nvim
+```bash
+mv ~/.config/nvim/ ~/.config/nvim.bak
+git clone https://github.com/Veha0001/VimLazyUser ~/.config/nvim
+```
