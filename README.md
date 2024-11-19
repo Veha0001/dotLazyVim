@@ -17,7 +17,7 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 Run the following command to install the necessary packages in Termux:
 ```bash
 apt update && apt upgrade
-apt install termux-api python neovim git nodejs-lts ripgrep ruff luarocks lua-language-server
+apt install termux-api python neovim git nodejs-lts ripgrep ruff luarocks lua-language-server fzf clang 
 ```
 ### Install LazyVim
 Back up your existing Neovim configuration and clone this repository to your Neovim config directory:

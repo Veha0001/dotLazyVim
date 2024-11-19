@@ -68,6 +68,9 @@ return {
         -- LSP Server Settings
         ---@type lspconfig.options
         servers = {
+          clangd = {
+            mason = false,
+          },
           emmet_ls = {
             enabled = lsp == "emmet_ls --stdio",
           },
