@@ -5,13 +5,34 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 ---
 
-## Termux setup
-> Install packages
+## Features
+- Pre-configured LazyVim setup for Termux.
+- Includes popular plugins and tools.
+- Lightweight and easy to install.
+
+# Termux Setup
+
+Install Required Packages
+
+Run the following command to install the necessary packages in Termux:
 ```bash
-apt install termux-api python neovim git nodejs-lts rigrep ruff luarocks lua-language-server 
+apt update && apt upgrade
+apt install termux-api python neovim git nodejs-lts ripgrep ruff luarocks lua-language-server
 ```
-> Setup nvim
+
+# Set Up Neovim
+
+Backup any existing Neovim configuration and clone this repository to your Neovim config directory:
 ```bash
-mv ~/.config/nvim/ ~/.config/nvim.bak
-git clone https://github.com/Veha0001/VimLazyUser ~/.config/nvim
+mv ~/.config/nvim ~/.config/nvim.bak
+git clone https://github.com/Veha0001/LazyVimStar ~/.config/nvim
 ```
+
+---
+
+> [!NOTE]
+> Ensure Termux is updated by running apt update and apt upgrade before installing packages.
+>
+> If you encounter any issues during setup, verify that your installed packages match the requirements of LazyVim.
+>
+> For additional customization and plugin configurations, refer to the files in ~/.config/nvim.
