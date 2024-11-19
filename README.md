@@ -28,6 +28,11 @@ git clone https://github.com/Veha0001/LazyVimStar ~/.config/nvim
 
 ---
 
+# Update Problems
+- [x] `emmet` work not like vscode, tested with `!`.
+- [x] `mason` still not runing well.
+- [x] `others?` idk.
+
 > [!NOTE]
 > Ensure Termux is updated by running apt update and apt upgrade before installing packages.
 >
