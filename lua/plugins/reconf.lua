@@ -71,6 +71,9 @@ return {
           clangd = {
             mason = false,
           },
+          emmet_language_server = {
+            enabled = lsp == "emmet-language-server --stdio",
+          },
           emmet_ls = {
             enabled = lsp == "emmet_ls --stdio",
           },
@@ -283,6 +286,7 @@ return {
     opts = {
       ensure_installed = {
         "stylua",
+        "emmet-language-server",
         "emmet-ls",
         "prettier",
         "html-lsp",
