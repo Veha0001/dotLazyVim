@@ -13,9 +13,6 @@ local M = {
         clangd = {
           mason = false,
         },
-        emmet_ls = {
-          enabled = false,
-        },
       },
       setup = {
         clangd = function(_, opts)
