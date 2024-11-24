@@ -28,11 +28,11 @@ git clone https://github.com/Veha0001/LazyVimStar ~/.config/nvim
 
 ---
 
-# Update Problems
-- [x] `emmet` work not like vscode, tested with `!`.
-- [x] `mason` still not runing well.
-- [x] `others?` idk.
-
+# Update Problem
+- [The problem with Mason / Lsp](https://www.reddit.com/r/neovim/comments/1b4v9mq/the_problem_with_mason_lsp/?tl=it)
+```bash
+termux-fix-shebang ~/.local/share/nvim/mason/bin/your_lsp
+```
 > [!NOTE]
 > Ensure Termux is updated by running apt update and apt upgrade before installing packages.
 >

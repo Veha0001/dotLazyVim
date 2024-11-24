@@ -35,6 +35,11 @@
     "lua": {
       "command": "lua-language-server",
       "filetypes": ["lua"]
+    },
+    "clangd": {
+      "command": "clangd",
+      "rootPatterns": ["compile_flags.txt", "compile_commands.json"],
+      "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]
     }
   }
 }
