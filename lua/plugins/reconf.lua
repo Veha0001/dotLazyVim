@@ -75,10 +75,14 @@ return {
             enabled = lsp == "emmet-language-server --stdio",
           },
           emmet_ls = {
+            mason = false,
             enabled = lsp == "emmet_ls --stdio",
           },
           html = {
             enabled = lsp == "html_lsp --stdio",
+          },
+          pylsp = {
+            mason = false,
           },
           pyright = {
             enabled = lsp == "pyright-langserver --stdio",
