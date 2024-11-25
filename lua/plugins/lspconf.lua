@@ -13,6 +13,9 @@ local M = {
         clangd = {
           mason = false,
         },
+        ruff = {
+          mason = false,
+        },
       },
       setup = {
         clangd = function(_, opts)
