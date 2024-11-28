@@ -19,7 +19,7 @@ Run the following command to install the necessary packages in Termux:
 
 ```bash
 apt update && apt upgrade
-apt install termux-api python neovim git nodejs-lts ripgrep ruff luarocks lua-language-server fzf clang termux-tools
+apt install termux-api python neovim git nodejs-lts ripgrep ruff luarocks lua-language-server fzf clang termux-tools lazygit
 ```
 
 ### Termux clipboards
@@ -27,7 +27,7 @@ apt install termux-api python neovim git nodejs-lts ripgrep ruff luarocks lua-la
 For get clipboards from vim to the device.
 
 > Install packages: `apt install termux-api`.
-> Then install Termux:API app from **Github** or **F-Dorid**.
+> Then install Termux:API app from **Play Store**, **Github** or **F-Dorid**.
 
 ### Install LazyVim
 
