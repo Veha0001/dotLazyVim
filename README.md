@@ -27,7 +27,9 @@ apt install termux-api python neovim git nodejs-lts ripgrep ruff luarocks lua-la
 For get clipboards from vim to the device.
 
 > Install packages: `apt install termux-api`.
-> Then install Termux:API app from **Play Store**, **Github** or **F-Dorid**.
+> Then install Termux:API app from **Github** or **F-Dorid**.
+> [!NOTE]
+> No need **Termux:API** App for **Termux Play Store**.
 
 ### Install LazyVim
 
