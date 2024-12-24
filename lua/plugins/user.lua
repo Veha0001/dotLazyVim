@@ -10,6 +10,9 @@ return {
     },
   },
   -- LazyVim plugin extras
+  --
+  { import = "lazyvim.plugins.extras.ai.copilot" },
+
   { import = "lazyvim.plugins.extras.lsp.neoconf" },
 
   { import = "lazyvim.plugins.extras.ui.edgy" },
@@ -26,6 +29,7 @@ return {
   { import = "lazyvim.plugins.extras.coding.neogen" },
   { import = "lazyvim.plugins.extras.coding.luasnip" },
   { import = "lazyvim.plugins.extras.coding.mini-surround" },
+  { import = "lazyvim.plugins.extras.coding.nvim-cmp" },
 
   { import = "lazyvim.plugins.extras.formatting.prettier" },
 }
