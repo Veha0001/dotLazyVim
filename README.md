@@ -2,6 +2,7 @@
 
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+<<<<<<< HEAD
 
 ---
 
@@ -57,3 +58,5 @@ termux-fix-shebang ~/.local/share/nvim/mason/bin/your_lsp
 > If you encounter any issues during setup, verify that your installed packages match the requirements of LazyVim.
 >
 > For additional customization and plugin configurations, refer to the files in ~/.config/nvim.
+=======
+>>>>>>> template/main
