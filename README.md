@@ -2,9 +2,12 @@
 
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
-<<<<<<< HEAD
 
----
+## Hey (-_-)
+
+i don't really use this anymore for now.
+but you can check out this 
+[dotAstroNvim](https://github.com/Veha0001/dotAstroNvim) that i using.
 
 # Features
 
@@ -58,5 +61,3 @@ termux-fix-shebang ~/.local/share/nvim/mason/bin/your_lsp
 > If you encounter any issues during setup, verify that your installed packages match the requirements of LazyVim.
 >
 > For additional customization and plugin configurations, refer to the files in ~/.config/nvim.
-=======
->>>>>>> template/main
