@@ -3,11 +3,7 @@
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
-## Hey (-_-)
-
-i don't really use this anymore for now.
-but you can check out this 
-[dotAstroNvim](https://github.com/Veha0001/dotAstroNvim) that i using.
+Upgraded to [vDotAstron](https://github.com/Veha0001/vDotAstron)
 
 # Features
 
@@ -29,9 +25,7 @@ apt install termux-api python neovim git nodejs-lts ripgrep ruff luarocks lua-la
 ### Termux clipboards
 
 For get clipboards from vim to the device.
-
-> Install packages: `apt install termux-api`.
-> Then install Termux:API app from **Github** or **F-Dorid**.
+You need to install **Termux:API** app from **Github** or **F-Dorid**.
 
 > [!NOTE]
 > No need to install **Termux:API** for **Termux Play Store**.

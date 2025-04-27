@@ -6,11 +6,9 @@ debug
 foo.*
 *.log
 data
-<<<<<<< HEAD
 lua/plugins/coc.lua
 lua/plugins/custom.lua
 lua/plugins/my*.lua
 lua/plugins/*patch.lua
 lazy*.json
-=======
->>>>>>> template/main
+
