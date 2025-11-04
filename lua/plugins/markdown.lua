@@ -22,15 +22,38 @@ return {
 
   {
     "MeanderingProgrammer/render-markdown.nvim",
+    dependencies = { "nvim-treesitter/nvim-treesitter", "nvim-mini/mini.nvim" },
+    ---@module 'render-markdown'
+    ---@type render.md.UserConfig
     opts = {
       code = {
         sign = false,
         width = "block",
-        right_pad = 1,
+        left_pad = 2,
+        right_pad = 4,
       },
       heading = {
         sign = false,
-        icons = {},
+        -- icons = {},
+      },
+      checkbox = {
+        enabled = false,
+      },
+      -- fix isuse when wraping
+      quote = { repeat_linebreak = true },
+      win_options = {
+        showbreak = {
+          default = "",
+          rendered = "  ",
+        },
+        breakindent = {
+          default = false,
+          rendered = true,
+        },
+        breakindentopt = {
+          default = "",
+          rendered = "",
+        },
       },
     },
     ft = { "markdown", "norg", "rmd", "org" },
@@ -38,17 +61,8 @@ return {
       require("render-markdown").setup(opts)
       Snacks.toggle({
         name = "Render Markdown",
-        get = function()
-          return require("render-markdown.state").enabled
-        end,
-        set = function(enabled)
-          local m = require("render-markdown")
-          if enabled then
-            m.enable()
-          else
-            m.disable()
-          end
-        end,
+        get = require("render-markdown").get,
+        set = require("render-markdown").set,
       }):map("<leader>um")
     end,
   },
