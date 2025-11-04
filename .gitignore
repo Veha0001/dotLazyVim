@@ -10,6 +10,7 @@ lua/plugins/coc.lua
 lua/plugins/custom.lua
 lua/plugins/my*.lua
 lua/plugins/*patch.lua
+lua/plugins/_*.lua
 lazy*.json
 vendor/
 ./vendor/*
